@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.w {
+    width: 1200px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #f3f5f7;
+}
+
+/* header开始 */
+.header {
+    height: 43px;
+    margin: 30px auto;
+    /* background-color: gray; */
+}
+
+.logo {
+    float: left;
+    width: 200px;
+    height: 43px;
+    /* background-color: rgb(113, 113, 228); */
+}
+
+.nav {
+    float: left;
+    width: 250px;
+    height: 43px;
+    margin-left: 70px;
+    /* background-color: pink; */
+}
+
+.nav li {
+    float: left;
+    margin-right: 30px;
+}
+
+.nav li a {
+    height: 43px;
+    line-height: 43px;
+    font-size: 18px 'Microsoft yahei';
+    color: black;
+}
+
+.nav li:hover {
+    border-bottom: 2px solid #00a4ff;
+}
+
+.search {
+    float: left;
+    width: 411px;
+    height: 40px;
+    margin-left: 60px;
+    /* background-color: rgb(177, 223, 116); */
+}
+
+.search input {
+    float: left;
+    width: 343px;
+    height: 38px;
+    border: 0;
+    border: 1px solid #00a4ff;
+    border-right: 0;
+    font-size: 14px;
+    color: #dfe0e2;
+    padding-left: 18px;
+}
+
+.search button {
+    float: left;
+    width: 49px;
+    height: 40px;
+    border: 0;
+    background: url(images/search.png);
+    background-repeat: no-repeat;
+}
+
+.user {
+    float: left;
+    width: 150px;
+    height: 30px;
+    font-size: 14px;
+    color: #9d9d9f;
+    /* background-color: blue; */
+    margin: 5px 0 5px 30px;
+}
+
+/* 图片与文字居中对齐 */
+.user img {
+    vertical-align: middle;
+}
+
+/* header结束 */
+
+
+/* banner开始 */
+.banner {
+    height: 420px;
+    background-color: #1c036c;
+}
+
+.center {
+    height: 420px;
+    width: 1200;
+    margin: 0 auto;
+    /* background-color: rgb(202, 114, 224); */
+    background: url(images/banner.png);
+}
+
+.subnav ul {
+    float: left;
+    width: 190px;
+    height: 420px;
+    background-color: rgb(0, 0, 0, 0.2);
+}
+
+.subnav ul li {
+    width: 172px;
+    height: 18px;
+    padding-top: 26px;
+    padding-left: 18px;
+}
+
+.subnav ul li a {
+    font: 14px 'Microsoft yahei';
+    color: white;
+}
+
+.subnav ul li a span {
+    float: right;
+    margin-right: 16px;
+}
+
+.subnav ul li a:hover {
+    color: #00a4ff;
+}
+
+.course {
+    float: right;
+    width: 230px;
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 8px;
+    background-color: white;
+}
+
+.course h3 {
+    height: 48px;
+    width: 230px;
+    line-height: 48px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: white;
+    background-color: #9bceea;
+}
+
+.course .record {
+    height: 42px;
+    width: 190px;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    margin: 0 18px;
+    border-bottom: 1px solid#efefef;
+}
+
+.course .record p {
+    font-size: 12px;
+    color: #ababab;
+}
+
+.course a {
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    margin: 5px 12px;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+    color: #00a4ff;
+    border: 1px solid #00a4ff;
+}
+
+/* banner结束 */
+
+/* goods开始 */
+.goods {
+    width: 1200px;
+    height: 60px;
+    margin: 7px auto 35px auto;
+    box-shadow: 0 2px 2px 2px rgb(0, 0, 0, 0.2);
+}
+
+.goods h3 {
+    float: left;
+    font-style: 16px;
+    color: #00a4ff;
+    padding: 17px 35px;
+}
+
+.goods .goods-item ul li {
+    float: left;
+    width: 122px;
+    height: 18px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.goods .goods-item ul li a {
+    font-size: 16px;
+    padding-left: 35px;
+    border-left: 1px solid #bfbfbf;
+}
+
+.goods .mod a {
+    float: right;
+    font-size: 12px;
+    color: #00a4ff;
+    padding: 23px 26px;
+}
+
+/* goods结束 */
+
+/* goods-detail详情开始 */
+
+.goods-detail {
+    width: 1200px;
+    height: 597px;
+    margin: 0 auto;
+    /* background-color: pink; */
+}
+
+.goods-detail .title {
+    width: 1200px;
+    height: 42px;
+    background: transparent;
+}
+
+.goods-detail .title .topic {
+    font-size: 20px;
+    color: #686969;
+}
+
+.goods-detail .title .all {
+    float: right;
+    padding-right: 30px;
+    font-style: 12px;
+    color: #a5a5a5;
+}
+
+.goods-detail div {
+    float: left;
+    width: 232px;
+    height: 271px;
+    background-color: white;
+    margin-right: 10px;
+    margin-bottom: 14px;
+}
+
+.goods-detail div {
+    position: relative;
+}
+
+.goods-detail em {
+    position: absolute;
+    top: 4px;
+    right: -4px;
+}
+
+.goods-detail .special {
+    margin-right: 0;
+}
+
+.goods-detail h4 {
+    width: 186px;
+    height: 34px;
+    padding: 23px 19px 19px 23px;
+}
+
+.goods-detail .info {
+    width: 186px;
+    height: 16px;
+    font-size: 12px;
+    padding: 0 19px 0 23px;
+}
+
+.goods-detail .info .level {
+    color: #ff7c2d;
+}
+
+.goods-detail .info .num {
+    color: #999999;
+}
+
+/* goods-item详情结束 */
+
+/* footer页脚开始 */
+.footer {
+    height: 418px;
+    margin: 40px auto 0 auto;
+    background-color: white;
+}
+
+.footer .main {
+    width: 1200px;
+    height: 418px;
+    margin: 0 auto;
+}
+
+
+.footer .main .intro {
+    float: left;
+    width: 433px;
+    height: 149px;
+    margin-top: 33px;
+    margin-left: 20px;
+}
+
+.footer .main .intro p {
+    font-size: 12px;
+    color: #666666;
+    margin-top: 20px;
+}
+
+.footer .main .intro button {
+    width: 121px;
+    height: 37px;
+    font-size: 16px;
+    margin-top: 14px;
+    background-color: #fff;
+    border: 0;
+    border: 1px solid #00a4ff;
+}
+
+.footer .main .intro button a {
+    color: #00a4ff;
+}
+
+.infor {
+    float: left;
+    width: 720px;
+    height: 149px;
+    margin-top: 30px;
+}
+
+.infor .about {
+    float: left;
+    margin-left: 145px;
+}
+
+.infor .about h4 {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 14px;
+}
+
+.infor .about ul li {
+    font-size: 12px;
+    color: black;
+}
+
+.infor .guide {
+    float: left;
+    margin-left: 145px;
+}
+
+.infor .guide h4 {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 14px;
+}
+
+.infor .guide ul li {
+    font-size: 12px;
+    color: black;
+}
+
+.infor .partner {
+    float: left;
+    margin-left: 145px;
+}
+
+.infor .partner h4 {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 14px;
+}
+
+.infor .partner ul li {
+    font-size: 12px;
+    color: black;
+}
+
+/* footer页脚结束 */
